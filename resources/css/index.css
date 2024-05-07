@@ -1,0 +1,26 @@
+/*declarando variables*/
+:root {
+  --white: #fff;
+  --black: #000;
+  --navvbar: #243742;
+  --background: #F5F7FA;
+  --hovers: rgba(132, 232, 90);
+}
+
+body{
+    background: var(--background);
+}
+
+.navbar-background{
+  background-color: var(--navvbar);
+}
+
+/* css parte del main.html*/
+a {
+  text-decoration: none !important;
+}
+
+/* Dashboard */
+.cards{
+    margin-top: 30px;
+}
